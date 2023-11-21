@@ -11,6 +11,9 @@ A desktop game that uses graph algorithms to generate and solve mazes. The game 
 ## Learning
 
 - C#
+- GRASP
+- SOLID
+- Patterns
 - Graph
 - Stack
 - Hashing
