@@ -1,36 +1,33 @@
-# C# maze game
+# Python adventure game
 
-This repository contains code of a learning project called: "C# maze game".
+This repository contains code of a learning project called: "Python adventure game".
 
-It's purpose is to build a game that generates and solves mazes.
+It's purpose is to build a text-based adventure game with room, inventory, combat, puzzle solving and game saving functionality.
 
 ## Idea
 
-A desktop game that uses graph algorithms to generate and solve mazes. The game should use a graph data structure to represent the maze and a stack to implement a depth-first search algorithm to find a path from the start to the end. To generate a unique maze, you can use one of the many algorithms available for maze generation, such as the randomized version of Prim’s algorithm or the recursive backtracker algorithm. Once you have generated the maze, you can use a hashing technique to store the visited cells and a heap to implement a priority queue for a Dijkstra’s algorithm to find the shortest path.
+A text-based adventure game that uses various algorithms and data structures to create an immersive experience. The game should use a graph data structure to represent the rooms, and a stack or queue to manage the player’s inventory. For combat, if included, a binary search tree or heap could be used to manage health points. Puzzles in the game could involve sorting, searching, or pathfinding algorithms. File I/O operations should be used to save and load the game state.
 
 ## Learning
 
-- C#
-- GRASP
-- SOLID
-- Patterns
+- Python
 - Graph
 - Stack
-- Hashing
-- Heap/priority queue
-- Depth-first search algorithm
-- Dijkstra's algorithm
-- Randomized version of Prim's algorithm
-- Recursive backtracker algorithm
+- Queue
+- Binary search tree/heap
+- Sorting algorithms
+- Search algorithms
+- Pathfinding algorithms
+- I/O operations
 
 ## Requirements
 
-- A unique maze should be generated everytime a new maze is created.
-- A maze must be able to be generated using multiple algorithms.
-- The maze must be represented by a graph.
-- The maze must be visualized in a GUI.
-- The shortest path from the start to the end must be visualized in the same GUI using a red line.
-- A path from the start to the end must be visualized in the same GUI using a purple line.
-- The user must be able to select whether to show the red line, purple line or both.
-- The user must be able to select what algorithm to generate the maze with when they first start the GUI.
-- The user must be able to generate a new maze without leaving the GUI.
+- A player must be able to move rooms using the up, down, left and right keywords.
+- Each room must tell the player what monsters and items there are.
+- A player must be able to attack a monster.
+- A player must be able to pick up an item.
+- An item must have a chance of being a trap that steals health points or items.
+- Each room movement must have some lore which influences the game. Examples coud be stronger monsters, higher chance of a trap or the requirement of certain items. (It's gone pretty dark. Use a flashlight to continue.)
+- Each action must have a response. (The mushroom zombie has been slain. You lost 10 health points. 17/100 remaining.)
+- A player must be able to run player commands like hp, inventory, attack and use item 1.
+- Some room movements must have puzzles that the user needs to solve before continuing.
