@@ -34,4 +34,3 @@ A desktop game that uses graph algorithms to generate and solve mazes. The game 
 - The user must be able to select whether to show the red line, purple line or both.
 - The user must be able to select what algorithm to generate the maze with when they first start the GUI.
 - The user must be able to generate a new maze without leaving the GUI.
-- 
